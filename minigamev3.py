@@ -49,7 +49,7 @@ class MyGame(arcade.Window):
         output = f"Time: {minutes:02d}:{seconds:02d}"
         arcade.draw_text(output, WIDTH - 200, 50, arcade.color.BLACK, 30)
 
-        arcade.draw_rectangle_filled(WIDTH - 150, 125, 100, 50, arcade.color.BLACK)
+        arcade.draw_rectangle_filled(WIDTH - 115, 125, 170, 50, arcade.color.BLACK)
         arcade.draw_text(f"Score: {self.score}", WIDTH - 200, HEIGHT - 490, arcade.color.DARK_RED, 36)
         arcade.draw_text(f"Score: {self.score}", WIDTH - 198, HEIGHT - 490, arcade.color.ORANGE, 36)
 
